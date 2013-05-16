@@ -3,7 +3,7 @@
 tested with Ruby (1.8.7, 1.9.3, and 2.0.0), JRuby(1.8 and 1.9 mode), and Rubinius(1.8 and 1.9 mode) - see [.travis.yml](.travis.yml)
 
 ##TL;DR
-Precompute asynchronously a value when the file is load, not on the 1st call.
+Precompute asynchronously a value when the file is loaded, not on the 1st call.
 ```ruby
 cattr_reader_preloaded :gem_names do
   `gem list --no-version`  # <<< SLOW

@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CattrReaderPreloaded::VERSION
   spec.authors       = ["Alain Ravet"]
   spec.email         = ["alainravet@gmail.com"]
-  spec.description   = 'asynchronously precompute and cache values when a class/module is first loaded'
-  spec.summary       = 'asynchronously precompute and cache values when a class/module is first loaded'
+  spec.description   = 'asynchronously precompute and cache values when a class/module is loaded, not on the 1st call.'
+  spec.summary       = 'asynchronously precompute and cache values when a class/module is loaded, not on the 1st call.'
   spec.homepage      = ""
   spec.license       = "MIT"
 
