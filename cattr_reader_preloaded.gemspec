@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = CattrReaderPreloaded::VERSION
   spec.authors       = ["Alain Ravet"]
   spec.email         = ["alainravet@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = 'precompute and cache values when a file is loaded'
+  spec.summary       = 'precompute and cache values when a file is loaded'
   spec.homepage      = ""
   spec.license       = "MIT"
 
