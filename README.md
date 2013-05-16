@@ -49,6 +49,8 @@ This gem adds a ```cattr_reader_preloaded``` method to ```Kernel``` that starts 
 #     @@_gems_names ||= `gem list --no-version`
 #   end
 # by
+require 'cattr_reader_preloaded'
+
 cattr_reader_preloaded  :gem_names do
   `gem list --no-version`  # <<< SLOW
 end
