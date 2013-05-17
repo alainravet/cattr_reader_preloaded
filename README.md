@@ -5,6 +5,8 @@ tested with Ruby (1.8.7, 1.9.3, and 2.0.0), JRuby(1.8 and 1.9 mode), and Rubiniu
 ##TL;DR
 Precompute asynchronously a value when the file is loaded, not on the 1st call.
 ```ruby
+require 'cattr_reader_preloaded'
+
 cattr_reader_preloaded :gem_names do
   `gem list --no-version`  # <<< SLOW
 end
